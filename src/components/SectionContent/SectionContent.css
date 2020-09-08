@@ -1,5 +1,7 @@
 h2 {
     letter-spacing: -0.02em;
+    margin-top: 0;
+    margin-bottom: 1rem;
 }
 
 p {
@@ -7,12 +9,16 @@ p {
 }
 
 .SectionContent {
-    /* padding-top: 30px; */
+    padding-top: 1rem;
     padding-left: 38px;
     padding-right: 38px;
 }
 
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+    .SectionContent {
+        padding-top: 0;
+    }
+}
 
 @media (min-width: 992px) {
     .SectionContent {
