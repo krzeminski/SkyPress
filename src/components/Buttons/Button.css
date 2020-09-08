@@ -3,17 +3,13 @@
     border: 2px solid var(--backgroundAlternate);
     color: var(--textAlternate);
     padding: 0.75rem 2rem;
-    /* height: 3rem; */
-    /* width: 5rem; */
     border-radius: 25px;
-    /* transition-timing-function: cubic-bezier(0.85, 0.01, 0.15, 1); */
     transition: 400ms;
 }
 
 .Button:hover,
 .Button:focus,
 .Button:active{
-    /* background-color: var(--textAlternate); */
     border: 2px solid var(--textAlternate);
-    /* color: var(--backgroundAlternate); */
+    outline: none;
 }
