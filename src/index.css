@@ -1,0 +1,29 @@
+:root{
+  --primary:#008;
+  --secondary: #080;
+  --backgroundPrimary:#fff;
+  --backgroundSecondary:#333;
+  --backgroundAlternate:#FBDFD4;
+  --textPrimary:#565656;
+  --textSecondary:#000;
+  --textAlternate:#FF6716;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("assets/fonts/Poppins/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("assets/fonts/Inter-VariableFont_slnt,wght.ttf") format(".ttf");
+}
